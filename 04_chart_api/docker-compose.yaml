@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  plot_covid:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: plot_covid
+    volumes:
+      - .:/app
+    working_dir: /app
+
+volumes:
+  app:
