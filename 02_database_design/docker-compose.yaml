@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+  db:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: car_dealership_db
+    environment:
+      POSTGRES_PASSWORD: p_ssword
+      POSTGRES_DB: car_dealership_db
+    volumes:
+      - .:/app
+
+volumes:
+  app:
