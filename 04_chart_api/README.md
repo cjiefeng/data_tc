@@ -17,3 +17,5 @@
    ```
    $ docker compose run process_data
    ```
+
+![uploaded_plot](./plot_covid.png)
