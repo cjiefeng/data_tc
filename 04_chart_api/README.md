@@ -18,4 +18,5 @@
    $ docker compose run process_data
    ```
 
+Below is an image of cases from 01/09/22 - 01/10/22 
 ![uploaded_plot](./plot_covid.png)
